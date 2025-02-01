@@ -1,4 +1,4 @@
-# CIFAR-10 CNN Model Using TensorFlow and Keras (Python)
+# CIFAR-10 CNN Model Using TensorFlow and Keras From Scratch (Python)
 
 ## Description
 
