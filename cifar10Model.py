@@ -80,7 +80,7 @@ loss, accuracy = model.evaluate(X_test, y_test)
 print(f"Accuracy: {accuracy:.4f}\nLoss: {loss:.4f}")
 
 # Save the trained model
-model.save("cifar10_cnn_model.h5")
+model.save('cifar10ModelTrained.keras')
 print("Model saved successfully.")
 
 # Plotting Accuracy
