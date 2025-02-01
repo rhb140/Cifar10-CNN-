@@ -100,3 +100,5 @@ plt.xlabel('Epoch')
 plt.ylabel('Loss')
 plt.legend()
 plt.show()
+
+#CITATION : CIFAR-10 dataset: Krizhevsky, A., & Hinton, G. (2009). Learning Multiple Layers of Features from Tiny Images. University of Toronto.
