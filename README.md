@@ -146,7 +146,7 @@ loss, accuracy = model.evaluate(X_test, y_test)
 print(f"Accuracy: {accuracy:.4f}\nLoss: {loss:.4f}")
 
 # Save the trained model
-model.save("cifar10_cnn_model.h5")
+model.save('cifar10ModelTrained.keras')
 print("Model saved successfully.")
 ```
 #### Key Points:
@@ -177,12 +177,12 @@ plt.show()
 Use plt to plot an accuracy and a loss graph.
 
 ### Accuracy Graph
-![Accuracy Graph](https://github.com/rhb140/Cifar10-CNN-/blob/main/cirfar10Accuracy.jpg?raw=true)
+![Accuracy Graph](https://github.com/rhb140/Cifar10-CNN-/blob/main/cifar10Accuracy.jpg?raw=true)
 
 This graph shows both the training and validation accuracy over the epochs.
 
 ### Loss Graph
-![Loss Graph](https://github.com/rhb140/Cifar10-CNN-/blob/main/cirfar10Loss.jpg?raw=true)
+![Loss Graph](https://github.com/rhb140/Cifar10-CNN-/blob/main/cifar10Loss.jpg?raw=true)
 
 This graph shows both the training and validation loss over the epochs.
 
